@@ -1,0 +1,60 @@
+   
+
+
+
+
+
+
+
+ <nav class="navbar">
+      <div class="logo">
+        <img src="logo.png" alt="logo du site" />
+      </div>
+      <div class="navbar_mid">
+        <a href=""><strong>Accueil</strong></a>
+        <a href=""><strong>Catégories</strong></a>
+        <a href=""><strong>Match</strong></a>
+      </div>
+      <div class="class navbar_right">
+        <a href=""><strong>Se connecter</strong></a>
+        <a href=""><strong>S'inscrire</strong></a>
+      </div>
+    </nav>
+
+
+/* --------------Navbar------------- */
+.navbar a:hover {
+  color: #082d59;
+}
+
+.navbar {
+  max-width: 100%;
+  height: 69px;
+  background-color: #eaedfa;
+  padding: 7px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+}
+
+.logo img {
+  width: 80px;
+  height: 54px;
+}
+
+.navbar_right {
+  display: flex;
+  margin-left: auto;
+}
+
+.navbar_mid {
+  display: flex;
+  margin-left: auto;
+}
+.navbar_mid a {
+  margin: 70px;
+}
+
+.navbar_right a {
+  margin: 30px;
+}

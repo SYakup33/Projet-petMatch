@@ -1,0 +1,24 @@
+    <footer>
+      <a href="">Qui sommes-nous?</a>
+      <a href="">Mentions légales et règlement</a>
+      <a href="">Politiques d'accessebilité</a>
+      <a href="">Nos partenaire</a>
+      <a href="">Contact</a>
+    </footer>
+
+
+
+
+
+
+/* ---------------------Footer------------------ */
+
+footer {
+  background-color: #f6f3f3;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 69px;
+  align-items: center;
+  padding: 3px;
+}
